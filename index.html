@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Actions and Stuff Download for Minecraft Bedrock (MCPE) – Free Addon Guide</title>
+<meta name="description" content="Actions and Stuff makes Minecraft Bedrock feel alive with smoother player animations, mob movement and particles. Features, requirements, install steps for Android, iOS, Windows and Xbox, plus fixes.">
+<link rel="canonical" href="https://YOUR-USERNAME.github.io/YOUR-REPO/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Actions and Stuff Download for Minecraft Bedrock (MCPE)">
+<meta property="og:description" content="Smoother animations, livelier mobs and better particles for Minecraft Bedrock. Features, requirements and install guide.">
+<meta property="og:url" content="https://YOUR-USERNAME.github.io/YOUR-REPO/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1c3b33">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%235aa63c'/><rect y='60' width='100' height='40' fill='%238a5a36'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","name":"Actions and Stuff","url":"https://YOUR-USERNAME.github.io/YOUR-REPO/"},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is Actions and Stuff?","acceptedAnswer":{"@type":"Answer","text":"A visual enhancement pack for Minecraft Bedrock Edition that adds smoother player animations, livelier mob movement, detailed item models and better particles."}},
+{"@type":"Question","name":"Is Actions and Stuff free?","acceptedAnswer":{"@type":"Answer","text":"Community downloads are free. If the pack is sold on the Minecraft Marketplace, the price is set by its creator."}},
+{"@type":"Question","name":"Does it work on Minecraft Java Edition?","acceptedAnswer":{"@type":"Answer","text":"No. It is built for Bedrock Edition (MCPE, Windows, iOS, Android, Xbox)."}},
+{"@type":"Question","name":"Does it change gameplay?","acceptedAnswer":{"@type":"Answer","text":"No. It changes how the game looks and moves, not its rules."}}]}]}
+</script>
+<style>
+:root{--sky:#e4f3ef;--spruce:#1c3b33;--grass:#4f9a35;--dirt:#8a5a36;--ink:#15241f;--card:#fff;--line:#c7ddd5}
+@media(prefers-color-scheme:dark){:root{--sky:#12201c;--spruce:#cfe9df;--ink:#e6f2ed;--card:#1a2c27;--line:#2c4540}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--sky);color:var(--ink);font:400 1.05rem/1.7 Figtree,system-ui,sans-serif}
+h1,h2,h3{font-family:'Bricolage Grotesque',Georgia,sans-serif;line-height:1.1;color:var(--spruce);margin:0 0 .6em}
+h1{font-size:clamp(2.4rem,6vw,4.4rem);font-weight:800;letter-spacing:-.02em}
+h2{font-size:clamp(1.7rem,3.5vw,2.5rem);font-weight:800}h3{font-size:1.25rem;font-weight:500}
+a{color:inherit}.wrap{max-width:1080px;margin:auto;padding:0 1.25rem}
+:focus-visible{outline:3px solid var(--grass);outline-offset:3px}
+header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;max-width:1080px;margin:auto;gap:1rem;flex-wrap:wrap}
+.logo{font:800 1.2rem 'Bricolage Grotesque',sans-serif;text-decoration:none;color:var(--spruce)}
+nav a{margin-left:1.2rem;text-decoration:none;font-weight:600}nav a:hover{text-decoration:underline}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:2rem;align-items:center;padding:3rem 0 4rem}
+.lead{max-width:56ch;font-size:1.15rem}
+.btn{display:inline-block;background:var(--grass);color:#fff;font-weight:600;padding:.9rem 1.8rem;border-radius:4px;text-decoration:none;border-bottom:5px solid #2f6b1d;transition:transform .1s}
+.btn:active{transform:translateY(3px);border-bottom-width:2px}
+.btn.alt{background:transparent;color:var(--spruce);border:2px solid var(--spruce);margin-left:.6rem}
+.note{font-size:.9rem;opacity:.8;margin-top:1rem}
+.stage{background:linear-gradient(var(--sky) 62%,var(--grass) 62% 70%,var(--dirt) 70%);border:3px solid var(--spruce);border-radius:6px;aspect-ratio:1/1;position:relative;overflow:hidden;background-color:#bfe3f2}
+.steve{position:absolute;left:50%;bottom:30%;width:60px;height:120px;margin-left:-30px;animation:bob .8s ease-in-out infinite}
+.steve i{position:absolute;display:block}
+.head{left:12px;top:0;width:36px;height:36px;background:#c68e63}.body{left:12px;top:36px;width:36px;height:48px;background:#2aa6c4}
+.arm{top:36px;width:12px;height:48px;background:#c68e63;transform-origin:top;animation:swing .8s ease-in-out infinite}
+.arm.l{left:0}.arm.r{left:48px;animation-delay:-.4s}
+.leg{top:84px;width:18px;height:36px;background:#3b3f9c;transform-origin:top;animation:swing .8s ease-in-out infinite}
+.leg.l{left:12px;animation-delay:-.4s}.leg.r{left:30px}
+@keyframes swing{50%{transform:rotate(30deg)}0%,100%{transform:rotate(-30deg)}}
+@keyframes bob{50%{transform:translateY(-5px)}}
+@media(prefers-reduced-motion:reduce){.steve,.steve i{animation:none}}
+section{padding:3.5rem 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem}
+.feat{border-left:5px solid var(--grass);padding:.2rem 0 .2rem 1rem}
+.feat p{margin:0}
+table{width:100%;border-collapse:collapse;background:var(--card)}
+th,td{padding:.8rem 1rem;text-align:left;border-bottom:1px solid var(--line)}th{width:35%;color:var(--spruce)}
+.tablewrap{overflow-x:auto;border:2px solid var(--line)}
+.tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}
+.tabs button{font:600 1rem Figtree,sans-serif;padding:.6rem 1.1rem;border:2px solid var(--spruce);background:transparent;color:var(--spruce);border-radius:4px;cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--spruce);color:var(--sky)}
+.panel{background:var(--card);border:2px solid var(--line);padding:1rem 1.6rem}.panel[hidden]{display:none}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.pro{border-top:5px solid var(--grass);background:var(--card);padding:1rem 1.4rem}.con{border-top:5px solid var(--dirt);background:var(--card);padding:1rem 1.4rem}
+details{background:var(--card);border:2px solid var(--line);margin-bottom:.7rem;padding:.9rem 1.2rem}
+summary{font-weight:600;cursor:pointer;color:var(--spruce)}details[open] summary{margin-bottom:.5rem}
+footer{background:var(--spruce);color:var(--sky);padding:2.5rem 0;font-size:.92rem}footer a{margin-right:1rem}
+@media(prefers-color-scheme:dark){footer{background:#0c1512;color:#cfe9df}}
+@media(max-width:760px){.hero,.split{grid-template-columns:1fr}.stage{max-width:320px}nav a{margin:0 .8rem 0 0}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="#top">Actions and Stuff</a>
+  <nav aria-label="Main"><a href="#features">Features</a><a href="#requirements">Requirements</a><a href="#install">Install</a><a href="#fixes">Fixes</a><a href="#faq">FAQ</a></nav>
+</header>
+<main id="top">
+<div class="wrap hero">
+  <div>
+    <h1>Actions and Stuff for Minecraft Bedrock</h1>
+    <p class="lead">Make every step, swing and swim look the way it should. Actions and Stuff adds smoother player animations, livelier mobs and cleaner particles to Minecraft Bedrock Edition, without changing how the game plays.</p>
+    <p><a class="btn" id="download-btn" href="https://actionsandstuffs.com/" target="_blank" rel="noopener">Download Addon</a><a class="btn alt" href="#install">How to install</a></p>
+    <p class="note">For Minecraft Bedrock (MCPE, Windows, iOS, Android, Xbox). Not for Java Edition.</p>
+  </div>
+  <div class="stage" role="img" aria-label="A blocky Minecraft-style character walking with a smooth animation cycle">
+    <div class="steve"><i class="arm l"></i><i class="leg l"></i><i class="body"></i><i class="head"></i><i class="leg r"></i><i class="arm r"></i></div>
+  </div>
+</div>
+
+<div class="wrap">
+<section id="about">
+  <h2>What is Actions and Stuff?</h2>
+  <p>Actions and Stuff is a visual enhancement pack for Minecraft Bedrock Edition. Instead of adding new game rules, it upgrades the way the game moves and looks: walking, mining, fighting and swimming get natural animations, mobs behave less like repeating loops, and tools and items gain detailed 3D models.</p>
+  <p>Because it keeps the original blocky style, it fits survival, creative and multiplayer worlds. This page explains what the pack does, which devices it supports, how to install it and what to check when something looks wrong.</p>
+</section>
+
+<section id="features">
+  <h2>Features that change how Minecraft feels</h2>
+  <div class="grid">
+    <div class="feat"><h3>Smooth player animations</h3><p>Walking, climbing, turning and swimming flow instead of snapping between poses.</p></div>
+    <div class="feat"><h3>Sharper combat</h3><p>Sword swings, axe hits, blocking and bow draws look weightier and read more clearly.</p></div>
+    <div class="feat"><h3>Livelier mobs</h3><p>Animals and monsters get improved walk, idle and attack motion, so fields and caves feel active.</p></div>
+    <div class="feat"><h3>Animated items and tools</h3><p>Eating, mining and raising a shield play out as complete actions.</p></div>
+    <div class="feat"><h3>Detailed 3D models</h3><p>Tools and objects gain depth while staying true to Minecraft's style.</p></div>
+    <div class="feat"><h3>Better particles</h3><p>Breaking blocks, landing hits and wading through water produce cleaner effects.</p></div>
+    <div class="feat"><h3>Texture options</h3><p>Choose lighter textures on older phones and higher detail on strong devices.</p></div>
+    <div class="feat"><h3>Gameplay untouched</h3><p>Worlds, inventories and mechanics stay exactly as they were.</p></div>
+  </div>
+</section>
+
+<section id="requirements">
+  <h2>Requirements</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Game</th><td>Minecraft Bedrock Edition (MCPE)</td></tr>
+    <tr><th>Platforms</th><td>Android, iOS, Windows, Xbox</td></tr>
+    <tr><th>Minecraft version</th><td>Use the version listed with the release you download</td></tr>
+    <tr><th>Android</th><td>Android 8.0 or later</td></tr>
+    <tr><th>RAM</th><td>3 GB minimum, 4 GB or more recommended</td></tr>
+    <tr><th>Free storage</th><td>About 200 MB</td></tr>
+    <tr><th>Resource packs</th><td>Must be enabled in world settings</td></tr>
+  </table></div>
+</section>
+
+<section id="install">
+  <h2>How to install Actions and Stuff</h2>
+  <div class="tabs" role="tablist" aria-label="Platform">
+    <button role="tab" aria-selected="true" aria-controls="p-android" id="t-android">Android</button>
+    <button role="tab" aria-selected="false" aria-controls="p-ios" id="t-ios">iOS</button>
+    <button role="tab" aria-selected="false" aria-controls="p-pc" id="t-pc">Windows PC</button>
+    <button role="tab" aria-selected="false" aria-controls="p-xbox" id="t-xbox">Xbox</button>
+  </div>
+  <div class="panel" id="p-android" role="tabpanel" aria-labelledby="t-android"><ol>
+    <li>Download the pack file (.mcpack or .mcaddon).</li><li>Open it from your Downloads folder or file manager and choose Minecraft.</li><li>Wait for the "Import successful" message.</li><li>If "Open with" does not show Minecraft, try a file manager such as CX File Explorer.</li><li>Activate the pack as described under <a href="#activate">Activate the pack</a>.</li></ol></div>
+  <div class="panel" id="p-ios" role="tabpanel" aria-labelledby="t-ios" hidden><ol>
+    <li>Download the file in Safari.</li><li>Open the Files app and tap the download.</li><li>Choose Open in Minecraft and wait for the import to finish.</li><li>Activate the pack in your world settings.</li></ol></div>
+  <div class="panel" id="p-pc" role="tabpanel" aria-labelledby="t-pc" hidden><ol>
+    <li>Download the file to your computer.</li><li>Double-click it. Minecraft Bedrock opens and imports it.</li><li>Activate the pack in your world settings.</li></ol></div>
+  <div class="panel" id="p-xbox" role="tabpanel" aria-labelledby="t-xbox" hidden><ol>
+    <li>Console file imports are limited, so check the Minecraft Marketplace for an official listing first.</li><li>If you play on Windows with the same Microsoft account, import the pack there and your worlds can use it.</li><li>Activate the pack in your world settings.</li></ol></div>
+
+  <h3 id="activate" style="margin-top:2rem">Activate the pack</h3>
+  <ol>
+    <li>Open Minecraft Bedrock and tap the pencil icon beside your world, or create a new world.</li>
+    <li>Open Resource Packs, then My Packs, and activate Actions and Stuff.</li>
+    <li>If the download includes a Behavior Pack, activate it too.</li>
+    <li>If asked, turn on the experimental features listed in the world settings.</li>
+    <li>Press Play and walk, jump or swim to see the new animations.</li>
+  </ol>
+</section>
+
+<section id="pros-cons">
+  <h2>Pros and cons</h2>
+  <div class="split">
+    <div class="pro"><h3>Pros</h3><ul><li>More natural player and mob movement</li><li>Keeps Minecraft's original look</li><li>Simple import on Bedrock devices</li><li>Texture options for weaker hardware</li></ul></div>
+    <div class="con"><h3>Cons</h3><ul><li>High-detail textures can slow low-end devices</li><li>May clash with other animation packs</li><li>New Minecraft updates can break features until the pack updates</li></ul></div>
+  </div>
+</section>
+
+<section id="fixes">
+  <h2>Common problems and fixes</h2>
+  <details><summary>Purple, black or missing textures</summary><p>Remove the pack, import it again and confirm the download finished. Turn off other texture packs to find conflicts.</p></details>
+  <details><summary>Animations freeze or look wrong</summary><p>Disable other animation or visual packs, keep only Actions and Stuff active, then restart the world.</p></details>
+  <details><summary>Low FPS or lag</summary><p>Choose a lighter texture option, lower render distance and close background apps.</p></details>
+  <details><summary>Nothing changed after installing</summary><p>Check that the Resource Pack, and the Behavior Pack if included, are active in this world. Fully close and reopen Minecraft, and confirm your game version matches the release.</p></details>
+</section>
+
+<section id="faq">
+  <h2>Frequently asked questions</h2>
+  <details><summary>What is Actions and Stuff?</summary><p>A visual enhancement pack for Minecraft Bedrock Edition that adds smoother player animations, livelier mob movement, detailed item models and better particles.</p></details>
+  <details><summary>Is it free?</summary><p>Community downloads are free. If the pack is sold on the Minecraft Marketplace, its creator sets the price.</p></details>
+  <details><summary>Does it work on Java Edition?</summary><p>No. It is built for Bedrock Edition only.</p></details>
+  <details><summary>Does it change gameplay?</summary><p>No. It changes how the game looks and moves, not its rules.</p></details>
+  <details><summary>Can I use it with Vibrant Visuals?</summary><p>Usually yes. Enable both packs and adjust their order. If textures break, change the order or disable one to find the conflict.</p></details>
+</section>
+</div>
+</main>
+<footer>
+  <div class="wrap">
+    <p><strong>Disclaimer:</strong> This is an unofficial fan guide. Actions and Stuff belongs to its creator. Minecraft is a trademark of Mojang AB and Microsoft; this site is not affiliated with or endorsed by them.</p>
+    <p><a href="#about">About</a><a href="#faq">FAQ</a></p>
+    <p>© 2026 Actions and Stuff Guide</p>
+  </div>
+</footer>
+<script>
+document.querySelectorAll('[role=tab]').forEach(function(t){t.addEventListener('click',function(){
+document.querySelectorAll('[role=tab]').forEach(function(b){b.setAttribute('aria-selected',b===t);});
+document.querySelectorAll('[role=tabpanel]').forEach(function(p){p.hidden=p.id!==t.getAttribute('aria-controls');});});});
+</script>
+</body>
+</html>
